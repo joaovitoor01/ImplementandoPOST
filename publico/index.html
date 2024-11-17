@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Empresas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background: linear-gradient(135deg, #6c757d, #f8f9fa);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .nav {
+            background-color: #343a40;
+        }
+        .nav-link {
+            color: white;
+        }
+        .nav-link.active {
+            font-weight: bold;
+            background-color: #495057;
+            border-radius: 5px;
+        }
+        .nav-link:hover {
+            color: #ffc107;
+        }
+        .welcome-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #212529;
+            padding: 20px;
+        }
+        .welcome-container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .welcome-container p {
+            font-size: 1.2rem;
+            color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="nav justify-content-center py-2">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Início</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/listarUsuarios">Relatório</a>
+        </li>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <div class="welcome-container">
+        <h1>Bem-vindo ao App de Cadastro de Empresas</h1>
+        <p>Organize e gerencie os dados da sua empresa com eficiência e praticidade.</p>
+        <a href="cadastro.html" class="btn btn-primary btn-lg mt-3">Começar Cadastro</a>
+    </div>
+
+    <!-- Rodapé (opcional) -->
+    <footer class="text-center py-3 bg-light">
+        <p class="mb-0">© 2024 Cadastro de Empresas - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

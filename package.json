@@ -1,0 +1,24 @@
+{
+  "name": "implementandopost",
+  "version": "1.0.0",
+  "description": "Implementando o metodo POST para realizar cadastros de empresas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovitoor01/ImplementandoPOST.git"
+  },
+  "author": "João Vitor Santos Soares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaovitoor01/ImplementandoPOST/issues"
+  },
+  "homepage": "https://github.com/joaovitoor01/ImplementandoPOST#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
